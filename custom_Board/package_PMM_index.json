@@ -1,0 +1,71 @@
+{
+  "packages":
+  [
+    {  
+      "name": "PMM",
+      "maintainer": "PMM LLC",
+      "websiteURL": "PMM-USA.COM",
+      "email" : "info@pmm-usa.us",
+      "platforms":
+      [
+        { 
+          "name": "PMM Boards", 
+          "architecture": "samd",
+          "version": "0.0.51",
+          "category": "Contributed",
+          "url": "https://github.com/Israr-Engineering/PMM1.2/blob/main/custom_Board/PMM.zip?raw=true",
+          "archiveFileName": "PMM.zip",
+          "checksum": "SHA-256:4EF1ADE4D55009507F32E27DF1C8001587A26C4BAC233CF99D851CA6BA6AEFEB",
+          "size": "7790047",
+          "boards": [
+
+            {"name": "PMM0610"},
+            {"name": "PMM0640"},
+            {"name": "PMM0641"},
+            {"name": "PMM0650"},
+            {"name": "PMM0675"},
+            {"name": "PMM0676"},
+            {"name": "PMM0680V1.2"},
+            {"name": "PMM0680V2.2"},
+            {"name": "PMM0680"},
+            {"name": "PMM0681"},
+            {"name": "PMM0682"},
+            {"name": "PMM0683"},
+
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
