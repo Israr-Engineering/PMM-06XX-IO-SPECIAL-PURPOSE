@@ -2,21 +2,21 @@
   "packages":
   [
     {  
-      "name": "PMM-06XX-SPECIAL-PURPOSE",
+      "name": "PMM-06XX-IO-SPECIAL-PURPOSE",
       "maintainer": "PMM LLC",
       "websiteURL": "PMM-USA.COM",
       "email" : "info@pmm-usa.us",
       "platforms":
       [
         { 
-          "name": "PMM-06XX-SPECIAL-PURPOSE", 
+          "name": "PMM-06XX-IO-SPECIAL-PURPOSE", 
           "architecture": "samd",
-          "version": "0.0.51",
+          "version": "0.1.1",
           "category": "Contributed",
-          "url": "https://github.com/Israr-Engineering/PMM-06XX-SPECIAL-PURPOSE/blob/main/custom_Board/PMM.zip?raw=true",
+          "url": "https://github.com/Israr-Engineering/PMM-06XX-IO-SPECIAL-PURPOSE/blob/main/custom_Board/PMM.zip?raw=true",
           "archiveFileName": "PMM.zip",
-          "checksum": "SHA-256:FC1452C5BA3F52C8A0B4D5A5F3914D875CC22184E17E979F3238CBC926FFBB52",
-          "size": "7790059",
+          "checksum": "SHA-256:03739EBCF8610C390F44D25E642DCC8DCD33CE741BCF20E69E78CD250374DEFE",
+          "size": "7790062",
           "boards": [
 
             {"name": "PMM0610"},
