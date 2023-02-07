@@ -349,7 +349,7 @@ PMM0676.bootloader.tool=openocd
 PMM0676.bootloader.tool.default=openocd
 PMM0676.bootloader.file=zero/samd21_sam_ba.bin
 
-# pmm0680V12 (ESI Load Cell MODBUS TCP V1.2)
+# pmm0680V12 (ESI Load Cell MODBUS TCP V1.2)==
 # --------------------------------------
 pmm0680V12.name=pmm0680V12 (ESI Load Cell MODBUS TCP V1.2)
 pmm0680V12.vid.0=0x2341
