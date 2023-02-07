@@ -120,28 +120,6 @@ extern "C" unsigned int PINCOUNT_fn();
 
 
 
-
-
-
-
-
-
-
-
-#define PMM_DI_01          (10u) //PA06 : Digital Intput 01
-#define PMM_DI_02          (11u) //PA07 : Digital Intput 02
-#define PMM_DO_01          (13u) //PA20 : Digital Output 01
-#define PMM_DO_02          (19u) //PA15 : Digital Output 02
-#define PMM_AI_01          (5u) //PA05 : Analog Intput 01
-#define PMM_AI_02          (15u)  //PB02 : Analog Intput 02
-#define PMM_AO_01          (3u)  //PB09 : Analog Output 01
-#define PMM_AO_02          (4U)  //PA04 : Analog Output 02
-#define PMM_DI_PROG03      (12u) //PA13 : Digital Input - general (front panel dip switch )
-#define PMM_DI_PROG04      (18u) //PA14 : Digital Input - general (front panel dip switch)
-
-
-
-
  //* Analog pins (not defined for PMM0632X)
  
 #define PIN_A0               (14ul)
